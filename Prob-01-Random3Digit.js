@@ -5,7 +5,7 @@ function Random3Digit(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-function findMinAndMax() {
+function findMinAndMax() { 
   var numbers = [];
 
   for (var i = 0; i < 5; i++) {

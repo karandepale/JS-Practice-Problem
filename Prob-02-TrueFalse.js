@@ -10,7 +10,7 @@ var day = parseInt(readline.question("Enter Day/Date: "));
 var month = parseInt(readline.question("Enter Month: "));
 
 // Check if the day is between March 20 and June 20
-var isBetween = false;
+var isBetween = false; 
 
 if (month === 3 && day >= 20) {
   isBetween = true;

@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.flexBoxContainer{
+    background-color: rgba(127, 255, 212, 0.158);
+    height:100vh;
+
+    color:white;
+    display:flex;
+}
+
+.sideBar-container{
+    background-color:cadetblue;
+    width:200px;
+    text-align:center;
+}
+
+.main-Container{
+    background-color: red;
+    flex-grow: 2;
+}
+
+.header-container{
+    height:15vh;
+    background-color:rgba(0, 0, 0, 0.621);
+    text-align:center;
+}
+
+.content-container{
+    height:70vh;
+    background-color:burlywood;
+    text-align:center;
+}
+
+.footer-container{
+    height:15vh;
+    text-align:center;
+    background-color: rgba(0, 0, 0, 0.621);
+}

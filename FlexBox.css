@@ -33,6 +33,13 @@
     background-color:burlywood;
     text-align:center;
 }
+.content{
+    border:2px solid black;
+    padding:10px;
+    margin:10px;
+    background-color: white;
+    color:black;
+}
 
 .footer-container{
     height:15vh;
